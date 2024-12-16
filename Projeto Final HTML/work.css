@@ -1,0 +1,459 @@
+/* HEADER */
+
+header{
+    background-color: black;
+    font-size: 110%;
+    
+}
+#contactId{
+    color: white;   
+}
+#contactId:hover {
+            color: #9388a2;
+        }
+#workId{
+    color: white;
+}
+#workId:hover {
+    color: #9388a2;
+}
+#portfolioId{
+    color: white;
+}
+#portfolioId:hover {
+    color: #9388a2;
+}
+#aboutId{
+    color: white;
+}
+#aboutId:hover {
+    color: #9388a2;
+}
+#homeId{
+    color: white;
+}
+#homeId:hover {
+    color: #9388a2;
+}
+#btnHeader {
+    background-color: #341948;
+    color: white;   
+}
+#btnHeader:hover{
+    background-color: #9388a2;
+}
+
+
+/* BODY */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.timeline {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background-color: #9388a2;
+}
+
+
+
+.timeline-event {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.timeline-event:nth-child(odd) {
+    margin-left: 55%;
+}
+
+.timeline-event:nth-child(even) {
+    margin-left: 0;
+}
+
+.timeline-event h3 {
+    margin-top: 0;
+    color: #341948;
+}
+
+.timeline-event p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.timeline-event::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #9388a2;
+    border-radius: 50%;
+    border: 3px solid white;
+    z-index: 1;
+}
+
+.timeline-event:nth-child(odd)::after {
+    right: -27px;
+}
+
+.timeline-event:nth-child(even)::after {
+    left: -27px;
+}
+
+#bodyWork {
+    position: relative;
+    background-color: black;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    z-index: 1;
+}
+
+#bodyWork::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1; 
+
+}
+
+
+
+#bodyWork {
+    background-color: #0a0a0a; 
+    padding: 50px 0;
+    color: white; 
+}
+
+/* GAME */
+
+
+/* GAME */
+.game-container {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #1c1c1c; /* Cor escura para combinar com o fundo */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 0 auto;
+   margin-left: 65vh;
+   
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #9388a2; /* Cor do contorno similar ao tema */
+    border-radius: 20%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #341948;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #8584a1;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #341948;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+    background-color: #9388a2;
+}
+
+/* Adicionando responsividade para telas menores */
+@media (max-width: 600px) {
+    .board {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 1.5rem;
+    }
+
+    .reset-btn {
+        font-size: 1rem;
+    }
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    font-size: 110%;
+}
+
+#contactId,
+#workId,
+#portfolioId,
+#aboutId,
+#homeId {
+    color: white;
+}
+
+#contactId:hover,
+#workId:hover,
+#portfolioId:hover,
+#aboutId:hover,
+#homeId:hover {
+    color: #9388a2;
+}
+
+#btnHeader {
+    background-color: #341948;
+    color: white;
+}
+
+#btnHeader:hover {
+    background-color: #9388a2;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#bodyWork {
+    position: relative;
+    background-color: #0a0a0a;
+    padding: 50px 0;
+    color: white;
+}
+
+.timeline {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background-color: #9388a2;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 10px;
+    background-image: linear-gradient(to bottom, transparent 95%, #341948 95%);
+    background-size: 10px 20px; /* Ajusta o espaçamento das marcações */
+}
+
+.timeline-event {
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #1c3a63;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    color: white;
+}
+
+.timeline-event:nth-child(odd) {
+    margin-left: 55%;
+}
+
+.timeline-event:nth-child(even) {
+    margin-left: 0;
+}
+
+.timeline-event h3 {
+    margin-top: 0;
+    color: #e5e5e5;
+}
+
+.timeline-event p {
+    margin: 5px 0;
+    color: #ccc;
+}
+
+.timeline-event img {
+    width: 25%;
+    height: 25%;
+    margin-bottom: 10px;
+}
+
+.timeline-event::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+    background-color: #9388a2;
+    border-radius: 50%;
+    border: 3px solid white;
+    z-index: 1;
+}
+
+.timeline-event:nth-child(odd)::after {
+    right: -27px;
+}
+
+.timeline-event:nth-child(even)::after {
+    left: -27px;
+}
+
+/* Adicionar números de anos na régua */
+.timeline-year {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-weight: bold;
+    background-color: #341948;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.timeline-year:nth-of-type(1) {
+    top: 0;
+}
+
+.timeline-year:nth-of-type(2) {
+    top: 20%;
+}
+
+.timeline-year:nth-of-type(3) {
+    top: 40%;
+}
+
+.timeline-year:nth-of-type(4) {
+    top: 60%;
+}
+
+.timeline-year:nth-of-type(5) {
+    top: 80%;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .timeline-event {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .timeline::before {
+        left: 10%;
+    }
+}
+#gameMode {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333; /* Borda para destacar */
+    border-radius: 5%; /* Bordas arredondadas */
+    background-color: #fff; /* Fundo branco */
+    cursor: pointer; /* Cursor indica clicável */
+    margin: auto;
+    
+}
+#hiJogodoGalo{
+    text-align: center;
+}
+
+#reiniciarJogo {
+    display: block; /* Faz o botão ser tratado como um bloco */
+    margin: 0 auto; /* Aplica margens automáticas à esquerda e à direita, centralizando o botão */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #341948; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indica que é clicável */
+    transition: background-color 0.3s ease; /* Animação suave na cor de fundo */
+}
+
+#reiniciarJogo:hover {
+    background-color: #9388a2; /* Cor do botão quando o cursor passa sobre ele */
+}
+
+
+
+
+
+
+

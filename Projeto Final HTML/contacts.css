@@ -1,0 +1,110 @@
+/* HEADER */
+
+header{
+    background-color: black;
+    font-size: 110%;
+    
+}
+#contactId{
+    color: white;   
+}
+#contactId:hover {
+            color: #9388a2;
+        }
+#workId{
+    color: white;
+}
+#workId:hover {
+    color: #9388a2;
+}
+#portfolioId{
+    color: white;
+}
+#portfolioId:hover {
+    color: #9388a2;
+}
+#aboutId{
+    color: white;
+}
+#aboutId:hover {
+    color: #9388a2;
+}
+#homeId{
+    color: white;
+}
+#homeId:hover {
+    color: #9388a2;
+}
+#btnHeader {
+    background-color: #341948;
+    color: white;   
+}
+#btnHeader:hover{
+    background-color: #9388a2;
+}
+
+
+
+
+#contactsHero {
+    position: relative;
+    background-color: black;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    z-index: 1;
+}
+
+#contactsHero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+/* CONTACTS HERO */
+#contacts h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.contact-item {
+    font-size: 1.2rem;
+}
+
+.contact-link {
+    color: #9388a2;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.contact-address {
+    font-style: italic;
+}
+
+/* SOCIAL MEDIA */
+#contactsHero .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+}
+
+#contactsHero .btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,12 @@
+Black - Preto
+#0e050f
+
+Dark Blue - Azul Escuro
+#170b3b
+
+Purple - Roxo
+#341948
+
+Purple Haze - Acizentado
+#9388a2
+

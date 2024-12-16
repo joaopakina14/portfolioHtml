@@ -1,0 +1,129 @@
+/* HEADER */
+
+header{
+    background-color: black;
+    font-size: 110%;
+    
+}
+#contactId{
+    color: white;   
+}
+#contactId:hover {
+            color: #9388a2;
+        }
+#workId{
+    color: white;
+}
+#workId:hover {
+    color: #9388a2;
+}
+#portfolioId{
+    color: white;
+}
+#portfolioId:hover {
+    color: #9388a2;
+}
+#aboutId{
+    color: white;
+}
+#aboutId:hover {
+    color: #9388a2;
+}
+#homeId{
+    color: white;
+}
+#homeId:hover {
+    color: #9388a2;
+}
+#btnHeader {
+    background-color: #341948;
+    color: white;   
+}
+#btnHeader:hover{
+    background-color: #9388a2;
+}
+
+
+/* HEADER */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+.portfolio-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+.portfolio-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.portfolio-text {
+    flex: 1;
+    padding: 20px;
+}
+.portfolio-text h2 {
+    margin-bottom: 10px;
+}
+.portfolio-image {
+    flex: 1;
+    text-align: center;
+}
+.portfolio-image img {
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* BODYPORTFOLIO */
+
+#bodyPortfolio {
+    position: relative;
+    background-color: black;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    z-index: 1;
+}
+
+#bodyPortfolio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1; 
+
+}
+
+
+
+#bodyPortfolio {
+    background-color: #0a0a0a; 
+    padding: 50px 0;
+    color: white; 
+}
+
+#footerPortfolio{
+    background-color: black;
+}
+
+
+
+
+
+

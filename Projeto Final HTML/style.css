@@ -1,0 +1,177 @@
+/* HEADER */
+
+header{
+    background-color: black;
+    font-size: 110%;
+    
+}
+#contactId{
+    color: white;   
+}
+#contactId:hover {
+            color: #9388a2;
+        }
+#workId{
+    color: white;
+}
+#workId:hover {
+    color: #9388a2;
+}
+#portfolioId{
+    color: white;
+}
+#portfolioId:hover {
+    color: #9388a2;
+}
+#aboutId{
+    color: white;
+}
+#aboutId:hover {
+    color: #9388a2;
+}
+#homeId{
+    color: white;
+}
+#homeId:hover {
+    color: #9388a2;
+}
+#btnHeader {
+    background-color: #341948;
+    color: white;   
+}
+#btnHeader:hover{
+    background-color: #9388a2;
+}
+
+
+/* HEADER */
+
+
+/* HERO */
+
+#hero {
+    position: relative;
+    background-color: black;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    z-index: 1;
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./imagens/british-museum-evening-bloomsbury-area-london-uk.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1; 
+}
+
+
+
+#hero {
+    background-color: #0a0a0a; 
+    padding: 50px 0;
+    color: white; 
+}
+
+
+#heroTitle {
+    color: #9388a2;
+}
+#foto {
+    border-radius: 40%; 
+    border: 5px solid #9388a2; 
+}
+
+
+.btn-primary {
+    background-color: #341948;
+    
+}
+.btn-primary:hover{
+    background-color: #9388a2;
+}
+#heroDescription{
+    color: #9388a2;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+/* HERO */
+
+
+/* LINGUAGENS DE PROGRAMAÇÃO */
+#progTitle{
+    color: #9388a2;
+}
+
+#programmingIcons {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0%;
+    color: #9388a2;
+}
+
+#programmingIcons h2 {
+    color: #9388a2; 
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 50px; 
+    justify-items: center;
+}
+
+.icon-grid div {
+    width: 70px; 
+    height: 70px;
+}
+
+.icon-grid img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; 
+}
+
+.icon-grid img:hover {
+    transform: scale(1.1); 
+}
+#html{
+    margin-top: -25%;
+}
+#css{
+    height: 100px;
+    margin-top: -30%;
+}
+
+/* LINGUAGENS DE PROGRAMAÇÃO */
+
+
+
+/* FOOTER */
+
+
+.nav-item{
+    color: #9388a2;
+}
+
+footer.bg-dark {
+    background-color: black !important;
+}
+
+
+/* FOOTER */
