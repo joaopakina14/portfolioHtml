@@ -49,6 +49,28 @@ header{
 
 /* HERO */
 
+
+
+/* Container for both buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.button-container .d-grid {
+    flex: 1;
+}
+
+.d-md-flex.justify-content-md-start {
+    display: flex;
+}
+
+.d-md-flex.justify-content-md-start a {
+    display: block;
+}
+
+
 #hero {
     position: relative;
     background-color: black;
