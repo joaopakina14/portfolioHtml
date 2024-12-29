@@ -122,6 +122,81 @@ body {
     background-color: black;
 }
 
+@media (max-width: 600px) {
+    #onzenimg {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 500px;
+    }
+    #onzen {
+        position: relative;
+        z-index: 1;
+    }
+    #reactimg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 800px;
+    }#react{
+        position: relative;
+        z-index: 1;
+        margin-top: 250px;
+    }#ecogreenimg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 800px;
+    }#ecogreen{
+        position: relative;
+        z-index: 1;
+        margin-top: 300px;
+    }#imojafosteimg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 800px;
+    }#imojafoste{
+        position: relative;
+        z-index: 1;
+        margin-top: 240px;
+    }#simpson{
+        position: relative;
+        z-index: 1;
+        margin-top: 180px;
+    }#simpsonimg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 550px;
+    }#angrybird{
+        position: relative;
+        z-index: 1;
+        margin-top: 200px;
+    }#angrybirdimg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+        opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+        margin-top: 550px;
+        
+    }.bg-dark{
+       margin-top: 200px;
+    }body{
+        background-color: black;
+    }
+}
 
 
 

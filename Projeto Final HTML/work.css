@@ -451,6 +451,29 @@ body {
     background-color: #9388a2; /* Cor do botão quando o cursor passa sobre ele */
 }
 
+@media (max-width: 600px) {
+    .timeline::before {
+        display: none;
+    }
+    .timeline-event::after {
+        display: none;
+    }
+    #flup{
+        margin-left: -2px;
+       
+    }#ibotec{
+        margin-left: -2px;
+    }#cesae{
+        margin-left: 2px;
+    }#rts{
+        margin-left: 2px;
+    }#gameMode {
+        
+        margin-left: 140px;
+    }.board {
+        margin-left: 100px;
+    }
+}
 
 
 
